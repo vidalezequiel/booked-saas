@@ -38,7 +38,7 @@ Currently used by 35+ clients within the first month of launch.
 
 ## Status
 
-Production – actively used by real clients.
+Production – actively used by 35+ clients within the first month of launch, solving real-world scheduling and client management needs.
 
 ## Screenshots
 
