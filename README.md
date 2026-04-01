@@ -1,48 +1,51 @@
 # Booked SaaS
 
-Appointment management platform for businesses.
+Multi-tenant booking platform designed for businesses to manage appointments, clients and availability in a simple and scalable way.
 
 ## Overview
 
-Booked is a multi-tenant SaaS platform built to solve scheduling, reservations and availability management for businesses and professionals.
+Booked is a SaaS platform that allows businesses to create their own booking system using a unique slug.
+
+It solves the problem of fragmented scheduling tools by centralizing appointments, availability and customer management in a single system.
+
+Currently used by 35+ clients within the first month of launch.
 
 ## Features
 
-- Booking management
-- Multi-tenant architecture
-- Slug-based access per business
-- REST APIs
-- Real active clients
+- Multi-tenant architecture based on slug
+- Appointment scheduling system
+- Client management
+- Availability and time slot configuration
+- REST API backend
+- Web-based interface
 
 ## Tech Stack
 
-- PHP
+- PHP (PDO)
 - JavaScript
 - MySQL
 - REST APIs
 
+## Architecture
+
+- Central router (`index.php` + `.htaccess`)
+- Modular structure:
+  - `/pages`
+  - `/includes`
+  - `/functions`
+- Per-page assets (CSS + JS)
+- API endpoints returning JSON
+
 ## Status
 
-Production product with more than 35 active clients in the first month.
+Production – actively used by real clients.
 
 ## Screenshots
 
-<p align="center">
-  <img src="./booked/booked1.png" alt="Booked Screenshot 1" width="900" />
-</p>
+![Booked Dashboard](./booked/booked1.png)
+![Booking Flow](./booked/booked2.png)
+![Calendar View](./booked/booked3.png)
 
-<p align="center">
-  <img src="./booked/booked2.png" alt="Booked Screenshot 2" width="900" />
-</p>
-
-<p align="center">
-  <img src="./booked/booked3.png" alt="Booked Screenshot 3" width="900" />
-</p>
-
-<p align="center">
-  <img src="./booked/booked4.png" alt="Booked Screenshot 4" width="900" />
-</p>
-
-## Live Product
+## Website
 
 👉 https://booked.blackshark.com.ar
