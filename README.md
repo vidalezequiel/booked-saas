@@ -28,19 +28,19 @@ Production product with more than 35 active clients in the first month.
 ## Screenshots
 
 <p align="center">
-  <img src="./images/booked1.png" alt="Booked Screenshot 1" width="900" />
+  <img src="./booked/booked1.png" alt="Booked Screenshot 1" width="900" />
 </p>
 
 <p align="center">
-  <img src="./images/booked2.png" alt="Booked Screenshot 2" width="900" />
+  <img src="./booked/booked2.png" alt="Booked Screenshot 2" width="900" />
 </p>
 
 <p align="center">
-  <img src="./images/booked3.png" alt="Booked Screenshot 3" width="900" />
+  <img src="./booked/booked3.png" alt="Booked Screenshot 3" width="900" />
 </p>
 
 <p align="center">
-  <img src="./images/booked4.png" alt="Booked Screenshot 4" width="900" />
+  <img src="./booked/booked4.png" alt="Booked Screenshot 4" width="900" />
 </p>
 
 ## Live Product
